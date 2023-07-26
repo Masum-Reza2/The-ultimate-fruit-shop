@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -32,30 +33,61 @@
         }
     </style>
 </head>
+
 <body class="max-w-7xl mx-auto">
-    
+
     <!-- header section -->
     <header>
         <section class="px-4 md:px-6 lg:px-8">
-            <nav class="flex flex-row justify-between items-center bg-color_primary mt-2 text-white p-5 rounded-full">
+            <nav
+                class=" hidden md:flex md:justify-between md:items-center bg-color_primary mt-2 text-white p-5 rounded-full">
+
+                <div class="hidden md:flex lg:hidden">
+                    <i class="fa-solid fa-bars text-3xl"></i>
+                </div>
+
                 <div>
-                    <ul class="hidden lg:flex lg:flex-row space-x-5">
-                        <li class="text-base cursor-pointer transition-all duration-300 hover:scale-110 active:scale-105">Home</li>
-                        <li class="text-base cursor-pointer transition-all duration-300 hover:scale-110 active:scale-105">About Us</li>
-                        <li class="text-base cursor-pointer transition-all duration-300 hover:scale-110 active:scale-105">Shop</li>
-                        <li class="text-base cursor-pointer transition-all duration-300 hover:scale-110 active:scale-105">All Fruits</li>
+                    <ul class="md:hidden lg:flex md:flex-row space-x-5">
+                        <li
+                            class="text-base cursor-pointer transition-all duration-300 hover:scale-110 active:scale-105">
+                            Home</li>
+                        <li
+                            class="text-base cursor-pointer transition-all duration-300 hover:scale-110 active:scale-105">
+                            About Us</li>
+                        <li
+                            class="text-base cursor-pointer transition-all duration-300 hover:scale-110 active:scale-105">
+                            Shop</li>
+                        <li
+                            class="text-base cursor-pointer transition-all duration-300 hover:scale-110 active:scale-105">
+                            All Fruits</li>
                     </ul>
                 </div>
                 <div class="flex flex-row items-center space-x-4">
                     <img src="./images/logo.png" alt="logo">
                     <h1 class="text-4xl font-extrabold">Fruit Burst</h1>
                 </div>
-                <div class="hidden relative lg:flex items-center">
-                    <input class="px-10 py-4 rounded-full text-sm outline-indigo-500 text-black" type="text" placeholder="Search here">
-                    <span class="absolute right-4 invert cursor-pointer transition-all duration-300 hover:scale-110 active:scale-105"><i class="fa-solid fa-magnifying-glass"></i></span>
+                <div class=" relative flex items-center">
+                    <input class="px-10 py-4 rounded-full text-sm outline-indigo-500 text-black" type="text"
+                        placeholder="Search here">
+                    <span
+                        class="absolute right-4 invert cursor-pointer transition-all duration-300 hover:scale-110 active:scale-105"><i
+                            class="fa-solid fa-magnifying-glass"></i></span>
                 </div>
             </nav>
-        </section>  
+
+            <!-- mobile navbar -->
+            <div class="md:hidden flex items-center justify-between">
+                <div class="flex flex-row items-center space-x-4">
+                    <img class="" src="./images/logo.png" alt="logo">
+                    <h1 class="text-2xl font-extrabold">Fruit Burst</h1>
+                </div>
+                <!-- hamburger -->
+                <div>
+                    <i class="fa-solid fa-bars text-3xl"></i>
+                </div>
+            </div>
+
+        </section>
     </header>
 
     <!-- main section -->
@@ -65,4 +97,5 @@
     <footer></footer>
 
 </body>
+
 </html>
