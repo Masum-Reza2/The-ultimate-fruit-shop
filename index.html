@@ -17,6 +17,7 @@
                 extend: {
                     colors: {
                         clifford: '#da373d',
+                        'color_primary': '#F85559',
                     }
                 }
             }
@@ -31,7 +32,37 @@
         }
     </style>
 </head>
-<body>
+<body class="max-w-7xl mx-auto">
     
+    <!-- header section -->
+    <header>
+        <section class="px-4 md:px-6 lg:px-8">
+            <nav class="flex flex-row justify-between items-center bg-color_primary mt-2 text-white p-5 rounded-full">
+                <div>
+                    <ul class="hidden lg:flex lg:flex-row space-x-5">
+                        <li class="text-base cursor-pointer transition-all duration-300 hover:scale-110 active:scale-105">Home</li>
+                        <li class="text-base cursor-pointer transition-all duration-300 hover:scale-110 active:scale-105">About Us</li>
+                        <li class="text-base cursor-pointer transition-all duration-300 hover:scale-110 active:scale-105">Shop</li>
+                        <li class="text-base cursor-pointer transition-all duration-300 hover:scale-110 active:scale-105">All Fruits</li>
+                    </ul>
+                </div>
+                <div class="flex flex-row items-center space-x-4">
+                    <img src="./images/logo.png" alt="logo">
+                    <h1 class="text-4xl font-extrabold">Fruit Burst</h1>
+                </div>
+                <div class="hidden relative lg:flex items-center">
+                    <input class="px-10 py-4 rounded-full text-sm outline-indigo-500 text-black" type="text" placeholder="Search here">
+                    <span class="absolute right-4 invert cursor-pointer transition-all duration-300 hover:scale-110 active:scale-105"><i class="fa-solid fa-magnifying-glass"></i></span>
+                </div>
+            </nav>
+        </section>  
+    </header>
+
+    <!-- main section -->
+    <main></main>
+
+    <!-- footer section -->
+    <footer></footer>
+
 </body>
 </html>
