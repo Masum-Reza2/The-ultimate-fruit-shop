@@ -1,11 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>dont forget to add favicon</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" href="./images/business.png" type="image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/0f3e3c819f.js" crossorigin="anonymous"></script>
+    <!-- Tailwind custom color -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        /* google font */
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+        * {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
 </head>
 <body>
-    <h1>Hello world!</h1>
+    <h1 class="text-3xl">Hello world!</h1>
 </body>
 </html>
