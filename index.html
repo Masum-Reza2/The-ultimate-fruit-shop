@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
     <title>The Ultimate Fruit Shop | Buy fruits the way you want.</title>
+    <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
     <link rel="shortcut icon" href="./images/business.png" type="image/x-icon">
     <script src="https://cdn.tailwindcss.com"></script>
@@ -43,24 +44,23 @@
                 class=" hidden md:flex md:justify-between md:items-center bg-color_primary mt-2 text-white p-5 rounded-full">
 
                 <!-- tablet hamburger -->
-                <div
-                    class="hidden md:flex cursor-pointer transition-all duration-200 active:scale-125 lg:hidden">
+                <div class="hidden md:flex cursor-pointer transition-all duration-200 active:scale-125 lg:hidden">
                     <i class="fa-solid fa-bars text-3xl"></i>
                 </div>
 
                 <div>
                     <ul class="md:hidden lg:flex md:flex-row space-x-5">
                         <li
-                            class="text-base cursor-pointer transition-all duration-300 hover:scale-110 active:scale-105">
+                            class="text-base cursor-pointer transition-all duration-200 hover:scale-110 active:scale-125">
                             Home</li>
                         <li
-                            class="text-base cursor-pointer transition-all duration-300 hover:scale-110 active:scale-105">
+                            class="text-base cursor-pointer transition-all duration-200 hover:scale-110 active:scale-125">
                             About Us</li>
                         <li
-                            class="text-base cursor-pointer transition-all duration-300 hover:scale-110 active:scale-105">
+                            class="text-base cursor-pointer transition-all duration-200 hover:scale-110 active:scale-125">
                             Shop</li>
                         <li
-                            class="text-base cursor-pointer transition-all duration-300 hover:scale-110 active:scale-105">
+                            class="text-base cursor-pointer transition-all duration-200 hover:scale-110 active:scale-125">
                             All Fruits</li>
                     </ul>
                 </div>
@@ -84,8 +84,25 @@
                     <h1 class="text-2xl font-extrabold">Fruit Burst</h1>
                 </div>
                 <!-- hamburger -->
-                <div class="cursor-pointer transition-all duration-200  active:scale-125">
+                <div class="hamburger cursor-pointer transition-all duration-200  active:scale-125">
                     <i class="fa-solid fa-bars text-3xl"></i>
+                    <ul class=" mob_menus hidden rounded-xl absolute w-[92.5%] flex-col items-center space-y-5 py-20 top-[75px] z-50  left-4"
+                        style=" background-image: url('./images/hamburger.jpg'); background-size: cover; background-repeat: no-repeat;">
+
+                        <li></li>
+                        <li
+                            class=" text-2xl text-white cursor-pointer transition-all duration-300 hover:scale-110 active:scale-105">
+                            Home</li>
+                        <li
+                            class=" text-2xl text-white cursor-pointer transition-all duration-300 hover:scale-110 active:scale-105">
+                            About Us</li>
+                        <li
+                            class=" text-2xl text-white cursor-pointer transition-all duration-300 hover:scale-110 active:scale-105">
+                            Shop</li>
+                        <li
+                            class=" text-2xl text-white cursor-pointer transition-all duration-300 hover:scale-110 active:scale-105">
+                            All Fruits</li>
+                    </ul>
                 </div>
             </div>
 
@@ -232,7 +249,9 @@
                 <div class="lg:flex-1 space-y-4">
                     <h1 class="text-center lg:text-start font-extrabold text-lg md:text-2xl lg:text-3xl text-[#121212]">
                         Deal of the day</h1>
-                    <p class="text-center text-base text-[#121212] md:text-justify lg:pr-24 lg:text-start">Today's Special Sweet and Succulent Fruit of the Day! Hurry in for a juicy deal that's ripe and ready to delight your taste buds!</p>
+                    <p class="text-center text-base text-[#121212] md:text-justify lg:pr-24 lg:text-start">Today's
+                        Special Sweet and Succulent Fruit of the Day! Hurry in for a juicy deal that's ripe and ready to
+                        delight your taste buds!</p>
                 </div>
 
                 <div class="lg:flex-1 lg:flex justify-end">
@@ -487,7 +506,9 @@
                     <div class="hero-content text-center text-neutral-content text-white">
                         <div class=" space-y-2 md:space-y-4">
                             <h1 class="text-2xl md:text-4xl font-extrabold text-white">Meet the team section</h1>
-                            <p class="text-sm md:text-center text-justify leading-6 px-10 lg:px-72">They demonstrate strong collaboration and complement each other's strengths, resulting in exceptional outcomes.strong collaboration and leveraging each other's strengths.</p>
+                            <p class="text-sm md:text-center text-justify leading-6 px-10 lg:px-72">They demonstrate
+                                strong collaboration and complement each other's strengths, resulting in exceptional
+                                outcomes.strong collaboration and leveraging each other's strengths.</p>
 
                             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 md:px-28">
                                 <!-- user 1 -->
@@ -567,7 +588,9 @@
         <!-- why choose us section -->
         <section class="px-4 md:px-6 lg:px-8 mt-10 lg:mt-20">
             <h1 class="text-[#121212] font-extrabold text-2xl md:text-4xl text-center">Why Choose Us</h1>
-            <p class=" text-[#121212] text-sm text-center py-2 px-16 md:px-36 lg:px-80">Choose us for a fruit-filled experience like no other! At our fruit shop, we take pride in offering the freshest and most diverse selection of handpicked fruits, sourced from trusted growers around the world.</p>
+            <p class=" text-[#121212] text-sm text-center py-2 px-16 md:px-36 lg:px-80">Choose us for a fruit-filled
+                experience like no other! At our fruit shop, we take pride in offering the freshest and most diverse
+                selection of handpicked fruits, sourced from trusted growers around the world.</p>
 
             <div class="grid grid-cols-1 lg:grid-cols-3 mt-10 gap-5">
                 <!-- why choose details -->
@@ -581,7 +604,8 @@
                         <div class="flex flex-col items-center lg:items-start justify-center">
                             <h1 class="text-2xl font-extrabold">Dedicated Team</h1>
                             <div class="border w-[100px] mt-4 border-[#121212]"></div>
-                            <p class="text-center lg:text-start text-[#121212] mt-4 text-sm px-24 lg:px-0"> Our professional employees are there for you, ensuring you pick the most fresh fruits.</p>
+                            <p class="text-center lg:text-start text-[#121212] mt-4 text-sm px-24 lg:px-0"> Our
+                                professional employees are there for you, ensuring you pick the most fresh fruits.</p>
                         </div>
                     </div>
 
@@ -593,7 +617,8 @@
                         <div class="flex flex-col items-center lg:items-start justify-center">
                             <h1 class="text-2xl font-extrabold">Fresh is Best</h1>
                             <div class="border w-[100px] mt-4 border-[#121212]"></div>
-                            <p class="text-center lg:text-start text-[#121212] mt-4 text-sm px-24 lg:px-0">Embrace freshness with our handpicked selection, guaranteed to delight your taste buds.</p>
+                            <p class="text-center lg:text-start text-[#121212] mt-4 text-sm px-24 lg:px-0">Embrace
+                                freshness with our handpicked selection, guaranteed to delight your taste buds.</p>
                         </div>
                     </div>
 
@@ -605,7 +630,9 @@
                         <div class="flex flex-col items-center lg:items-start justify-center">
                             <h1 class="text-2xl font-extrabold">Gift Certificates</h1>
                             <div class="border w-[100px] mt-4 border-[#121212]"></div>
-                            <p class="text-center lg:text-start text-[#121212] mt-4 text-sm px-24 lg:px-0">Spread the joy of nature's goodness with our gift certificates - a perfect treat for fruit lovers.</p>
+                            <p class="text-center lg:text-start text-[#121212] mt-4 text-sm px-24 lg:px-0">Spread the
+                                joy of nature's goodness with our gift certificates - a perfect treat for fruit lovers.
+                            </p>
                         </div>
                     </div>
 
@@ -628,7 +655,8 @@
                         <div class="flex flex-col items-center lg:items-end justify-center">
                             <h1 class="text-2xl font-extrabold">Integrated Supplier</h1>
                             <div class="border w-[100px] mt-4 border-[#121212]"></div>
-                            <p class="text-center lg:text-end text-[#121212] mt-4 text-sm px-24 lg:px-0">With our dedicated team, we ensure the freshest and most amazing fruits for you.</p>
+                            <p class="text-center lg:text-end text-[#121212] mt-4 text-sm px-24 lg:px-0">With our
+                                dedicated team, we ensure the freshest and most amazing fruits for you.</p>
                         </div>
                     </div>
 
@@ -641,7 +669,7 @@
                             <h1 class="text-2xl font-extrabold">Sustainable Practice</h1>
                             <div class="border w-[100px] mt-4 border-[#121212]"></div>
                             <p class="text-center lg:text-end text-[#121212] mt-4 text-sm px-24 lg:px-0">
-                                Embrace the  nature with our sustainable approach providing delightful choices.
+                                Embrace the nature with our sustainable approach providing delightful choices.
                             </p>
                         </div>
                     </div>
@@ -655,7 +683,8 @@
                             <h1 class="text-2xl font-extrabold">The Benefits Only</h1>
                             <div class="border w-[100px] mt-4 border-[#121212]"></div>
                             <p class="text-center lg:text-end text-[#121212] mt-4 text-sm px-24 lg:px-0">
-                                Our employees are committed to selecting the best fruits, offering you exclusive benefits.
+                                Our employees are committed to selecting the best fruits, offering you exclusive
+                                benefits.
                             </p>
                         </div>
                     </div>
@@ -669,33 +698,39 @@
     </main>
 
     <!-- footer section -->
-   <footer class="bg-[#121212] mt-10 p-10 lg:p-20">
+    <footer class="bg-[#121212] mt-10 p-10 lg:p-20">
 
-    <div class="flex flex-row items-center justify-center space-x-4">
-        <img class="w-1/12 md:w-12" src="./images/logo.png" alt="logo">
-        <h1 class="text-2xl font-extrabold text-white">Fruit Burst</h1>
-    </div>
+        <div class="flex flex-row items-center justify-center space-x-4">
+            <img class="w-1/12 md:w-12" src="./images/logo.png" alt="logo">
+            <h1 class="text-2xl font-extrabold text-white">Fruit Burst</h1>
+        </div>
 
-    <div class="mt-10 text-white flex justify-center flex-wrap gap-10">
-        <p class="hover:underline cursor-pointer">Home</p>
-        <p class="hover:underline cursor-pointer">About Us</p>
-        <p class="hover:underline cursor-pointer">Shop</p>
-        <p class="hover:underline cursor-pointer">All Fruits</p>
-        <p class="hover:underline cursor-pointer">Support</p>
-        <p class="hover:underline cursor-pointer">My Account</p>
-    </div>
+        <div class="mt-10 text-white flex justify-center flex-wrap gap-10">
+            <p class="hover:underline cursor-pointer">Home</p>
+            <p class="hover:underline cursor-pointer">About Us</p>
+            <p class="hover:underline cursor-pointer">Shop</p>
+            <p class="hover:underline cursor-pointer">All Fruits</p>
+            <p class="hover:underline cursor-pointer">Support</p>
+            <p class="hover:underline cursor-pointer">My Account</p>
+        </div>
 
-    <!-- icons -->
-    <div class="mt-5 lg:mt-10 text-white text-2xl md:text-4xl space-x-8 flex justify-center">
-        <i class="cursor-pointer transition-all duration-100 hover:animate-bounce active:text-yellow-400  fa-brands fa-twitter "></i>
-        <i class="cursor-pointer transition-all duration-100 hover:animate-bounce active:text-yellow-400  fa-brands fa-facebook text-blue-500"></i>
-        <i class="cursor-pointer transition-all duration-100 hover:animate-bounce active:text-yellow-400  fa-brands fa-youtube text-red-500"></i>
-        <i class="cursor-pointer transition-all duration-100 hover:animate-bounce active:text-yellow-400  fa-brands fa-linkedin"></i>
-        <i class="cursor-pointer transition-all duration-100 hover:animate-bounce active:text-yellow-400  fa-brands fa-instagram"></i>
-        <i class="cursor-pointer transition-all duration-100 hover:animate-bounce active:text-yellow-400  fa-brands fa-apple"></i>
-    </div>
+        <!-- icons -->
+        <div class="mt-5 lg:mt-10 text-white text-2xl md:text-4xl space-x-8 flex justify-center">
+            <i
+                class="cursor-pointer transition-all duration-100 hover:animate-bounce active:text-yellow-400  fa-brands fa-twitter "></i>
+            <i
+                class="cursor-pointer transition-all duration-100 hover:animate-bounce active:text-yellow-400  fa-brands fa-facebook text-blue-500"></i>
+            <i
+                class="cursor-pointer transition-all duration-100 hover:animate-bounce active:text-yellow-400  fa-brands fa-youtube text-red-500"></i>
+            <i
+                class="cursor-pointer transition-all duration-100 hover:animate-bounce active:text-yellow-400  fa-brands fa-linkedin"></i>
+            <i
+                class="cursor-pointer transition-all duration-100 hover:animate-bounce active:text-yellow-400  fa-brands fa-instagram"></i>
+            <i
+                class="cursor-pointer transition-all duration-100 hover:animate-bounce active:text-yellow-400  fa-brands fa-apple"></i>
+        </div>
 
-   </footer>
+    </footer>
 
 </body>
 

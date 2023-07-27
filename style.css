@@ -1,9 +1,8 @@
-/* Define styles for the hidden extra section */
-#extra-section {
+/* hamburger menu settings */
+.mob_menus{
     display: none;
 }
 
-/* Use :target pseudo-class to show the extra section when the target (toggle-btn) is clicked */
-.toggle-btn:focus ~ #extra-section {
-    display: block;
+.hamburger:hover .mob_menus{
+    display: flex;
 }
